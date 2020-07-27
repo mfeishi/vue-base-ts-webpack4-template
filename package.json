@@ -1,0 +1,24 @@
+{
+  "name": "vue-base-webpack4-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "webpack-dev-server --config build/webpack.dev.conf.ts",
+    "build": "webpack --config build/webpack.prod.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfeishi/vue-base-webpack4-template.git"
+  },
+  "author": "feishi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfeishi/vue-base-webpack4-template/issues"
+  },
+  "homepage": "https://github.com/mfeishi/vue-base-webpack4-template#readme",
+  "devDependencies": {
+    "vue": "^2.6.11",
+    "webpack": "^4.44.0"
+  }
+}
