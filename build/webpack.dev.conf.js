@@ -14,13 +14,13 @@ const webpackDevConfig = merge(webpackBaseConfig,{
 	    contentBase: false, // since we use CopyWebpackPlugin.
 	    compress: true,
 	    host: 'localhost',
-	    port: '8099',
+	    port: '8089',
 	    open: true,
 	    overlay: { warnings: false, errors: true },//在浏览器上全屏显示编译的errors或warnings
 	    publicPath: '/',
 	    proxy: {
 		  '/test': {
-			target: 'http://111.16.3.185', 
+			target: 'http://111.16.3.185',
 			changeOrigin: true,  //是否跨域
 			headers: {
 			  'token': '2222'
